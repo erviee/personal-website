@@ -108,7 +108,7 @@ nav ul li a:hover:after{
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: whitesmoke}
+.dropdown-content a:hover {color:-moz-linear-gradient(red,blue,purple)}
 
 .dropdown:hover .dropdown-content {
   display: block;
