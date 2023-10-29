@@ -89,6 +89,15 @@ nav ul li a:hover:after{
     opacity: 1;
 }
 
+nav ul li a:hover:not(.active) {
+    color: magenta;
+}
+  
+.active {
+    background-image: -webkit-repeating-linear-gradient(rgb(230, 105, 230), cyan);
+    padding: 8px;
+}
+
 .dropdown{
     position: relative;
     display: inline-block;
